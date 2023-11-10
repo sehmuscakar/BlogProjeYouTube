@@ -1,0 +1,15 @@
+﻿@using DataAccessLayer.Dtos.Articles;
+@model List<ArticleDto>
+
+@foreach (var article in Model)
+
+{
+    <h1>@article.Title</h1>
+    <br />
+ @*   <h1>@article.Content</h1>*@
+    <br />
+    <h1>@article.CreatedBy</h1>
+    <br />
+    <br />
+
+}
